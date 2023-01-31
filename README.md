@@ -1,6 +1,6 @@
 # CodepathMyStory
 
-# Project 1 - *MyStory*
+# Project 1 - *SpongebobProfile*
 
 Submitted by: **Camila Aichele**
 
