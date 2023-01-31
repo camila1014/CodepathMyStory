@@ -1,8 +1,8 @@
-# CodepathiOSProject1
+# CodepathMyStory
 
-# Project 1 - MyStory
+# Project 1 - *MyStory*
 
-Submitted by: Camila Aichele
+Submitted by: **Camila Aichele**
 
 MyStory is an app that introduces an animated character and certain characteristics related to that character. 
 
