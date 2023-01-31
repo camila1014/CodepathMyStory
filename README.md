@@ -33,6 +33,11 @@ Here's a walkthrough of implemented user stories:
 
 ![ezgif com-gif-maker-2](https://user-images.githubusercontent.com/103790405/215866787-74f7e8bc-1377-4247-a8aa-c09304a7103b.gif)
 
+
+
+
+
+
 ![ezgif com-gif-maker-3](https://user-images.githubusercontent.com/103790405/215866969-fd8679e3-392b-4796-9562-e70e0571eccc.gif)
 
 GIF created with https://ezgif.com
