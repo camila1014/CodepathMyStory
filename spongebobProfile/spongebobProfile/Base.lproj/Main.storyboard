@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jTW-pH-eFe">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="OwA-Mk-bHT">
+            <objects>
+                <navigationController id="jTW-pH-eFe" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8jX-6a-9xO">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="7nl-LH-IU5" kind="relationship" relationship="rootViewController" id="Mal-hS-6PB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="665-t5-CWT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-878" y="-2"/>
+        </scene>
+        <!--Spongebob Squarepants!-->
+        <scene sceneID="2ze-qB-1Jd">
+            <objects>
+                <viewController id="7nl-LH-IU5" customClass="ViewController" customModule="spongebobProfile" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Be5-r3-uEI">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spongebobProfile" translatesAutoresizingMaskIntoConstraints="NO" id="kJ3-Vl-KqA">
+                                <rect key="frame" x="0.0" y="76" width="390" height="768"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HKB-ed-bAI">
+                                <rect key="frame" x="123" y="91" width="144" height="719"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HmN-6o-Bqe">
+                                        <rect key="frame" x="39.666666666666657" y="105" width="64.666666666666686" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="6T7-gk-ZRI"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Pets">
+                                                    <attributes>
+                                                        <font key="NSFont" size="21" name="ChalkboardSE-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="didTapButton:" destination="7nl-LH-IU5" eventType="touchUpInside" id="pwW-2y-M4g"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8CO-eb-eYu">
+                                        <rect key="frame" x="22" y="24" width="100" height="44"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Hobbies">
+                                                    <attributes>
+                                                        <font key="NSFont" size="21" name="ChalkboardSE-Bold"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="didTapButton:" destination="7nl-LH-IU5" eventType="touchUpInside" id="iYc-rg-4Bl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mjv-HG-Bf7">
+                                        <rect key="frame" x="27" y="610" width="91.666666666666686" height="44"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Friends">
+                                                    <attributes>
+                                                        <font key="NSFont" size="21" name="ChalkboardSE-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="didTapButton:" destination="7nl-LH-IU5" eventType="touchUpInside" id="S5f-3A-Q6M"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="HmN-6o-Bqe" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Mjv-HG-Bf7" secondAttribute="leading" id="6s9-lZ-blQ"/>
+                                    <constraint firstItem="HmN-6o-Bqe" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8CO-eb-eYu" secondAttribute="leading" id="7Tp-Sl-yBZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="HmN-6o-Bqe" secondAttribute="bottom" constant="582" id="8co-up-6m9"/>
+                                    <constraint firstAttribute="trailing" secondItem="HmN-6o-Bqe" secondAttribute="trailing" constant="22" id="IdB-G5-Iia"/>
+                                    <constraint firstItem="HmN-6o-Bqe" firstAttribute="centerX" secondItem="HKB-ed-bAI" secondAttribute="centerX" id="NOE-0U-eoF"/>
+                                    <constraint firstItem="HmN-6o-Bqe" firstAttribute="top" secondItem="8CO-eb-eYu" secondAttribute="bottom" constant="37" id="jPW-Je-fxb"/>
+                                    <constraint firstItem="HmN-6o-Bqe" firstAttribute="trailing" secondItem="8CO-eb-eYu" secondAttribute="trailing" constant="-17.666666666666657" id="qIQ-Js-zMH"/>
+                                    <constraint firstItem="HmN-6o-Bqe" firstAttribute="top" secondItem="HKB-ed-bAI" secondAttribute="top" constant="105" id="r52-9j-JZ3"/>
+                                    <constraint firstItem="HmN-6o-Bqe" firstAttribute="trailing" secondItem="Mjv-HG-Bf7" secondAttribute="trailing" constant="-14.333333333333329" id="yZE-DE-MLd"/>
+                                    <constraint firstItem="YQw-TX-7TO" firstAttribute="bottom" secondItem="Mjv-HG-Bf7" secondAttribute="bottom" constant="65" id="zLE-KX-ajp"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="cbL-Gn-TA5"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="YQw-TX-7TO"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4Xo-qo-fFK"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="HKB-ed-bAI" firstAttribute="bottom" secondItem="4Xo-qo-fFK" secondAttribute="bottom" id="C2P-3K-I2z"/>
+                            <constraint firstItem="kJ3-Vl-KqA" firstAttribute="top" secondItem="Be5-r3-uEI" secondAttribute="topMargin" constant="-15" id="CwW-d3-RTV"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="kJ3-Vl-KqA" secondAttribute="bottom" constant="-34" id="IkU-q2-OG5"/>
+                            <constraint firstItem="HKB-ed-bAI" firstAttribute="centerX" secondItem="kJ3-Vl-KqA" secondAttribute="centerX" id="Vbu-Zu-4Ie"/>
+                            <constraint firstItem="kJ3-Vl-KqA" firstAttribute="leading" secondItem="4Xo-qo-fFK" secondAttribute="leading" id="ZNh-eW-0ZD"/>
+                            <constraint firstItem="HKB-ed-bAI" firstAttribute="top" secondItem="4Xo-qo-fFK" secondAttribute="top" id="gpT-ER-Zob"/>
+                            <constraint firstItem="HKB-ed-bAI" firstAttribute="leading" secondItem="4Xo-qo-fFK" secondAttribute="leading" constant="123" id="hss-QP-pKg"/>
+                            <constraint firstItem="HKB-ed-bAI" firstAttribute="centerX" secondItem="Be5-r3-uEI" secondAttribute="centerX" id="pUy-nN-a6N"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Spongebob Squarepants!" id="Ceh-tT-UPX"/>
+                    <connections>
+                        <segue destination="sTV-DP-2pa" kind="show" identifier="detailSegue" id="zMK-IF-jzn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gch-i8-hdu" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76.92307692307692" y="-2.1327014218009479"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="ubh-nw-Uaj">
+            <objects>
+                <viewController id="sTV-DP-2pa" customClass="detailViewController" customModule="spongebobProfile" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bf5-9X-4Mg">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QGi-Sk-dqA" userLabel="Image Choice">
+                                <rect key="frame" x="0.0" y="79" width="390" height="731"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="390" id="uoo-yH-Qgc"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gEA-VE-4zl" userLabel="Spongebob Details">
+                                <rect key="frame" x="16" y="91" width="358" height="708"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="ChalkboardSE-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cDl-3G-iI4"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="gEA-VE-4zl" firstAttribute="top" secondItem="cDl-3G-iI4" secondAttribute="top" id="2YT-0a-8Q4"/>
+                            <constraint firstItem="QGi-Sk-dqA" firstAttribute="top" secondItem="bf5-9X-4Mg" secondAttribute="topMargin" constant="-12" id="Awg-3H-gP1"/>
+                            <constraint firstItem="gEA-VE-4zl" firstAttribute="leading" secondItem="bf5-9X-4Mg" secondAttribute="leadingMargin" id="Cx0-hR-a3E"/>
+                            <constraint firstItem="gEA-VE-4zl" firstAttribute="centerX" secondItem="QGi-Sk-dqA" secondAttribute="centerX" id="Gbr-e7-TNI"/>
+                            <constraint firstItem="QGi-Sk-dqA" firstAttribute="centerX" secondItem="bf5-9X-4Mg" secondAttribute="centerX" id="m1h-w8-SWB"/>
+                            <constraint firstItem="gEA-VE-4zl" firstAttribute="centerY" secondItem="QGi-Sk-dqA" secondAttribute="centerY" id="owY-ld-LmX"/>
+                            <constraint firstItem="QGi-Sk-dqA" firstAttribute="bottom" secondItem="cDl-3G-iI4" secondAttribute="bottom" id="uTH-6e-D8c"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gr2-sM-J3I"/>
+                    <connections>
+                        <outlet property="imageChoice" destination="QGi-Sk-dqA" id="hXH-iD-ktK"/>
+                        <outlet property="spongebobDetails" destination="gEA-VE-4zl" id="abs-wv-tOL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pqj-UY-5QJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1000" y="-3.5545023696682461"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="spongebobProfile" width="1400" height="1494"/>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

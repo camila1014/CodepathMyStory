@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F19841052981F3CE00482E0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19841042981F3CE00482E0D /* AppDelegate.swift */; };
+		F19841072981F3CE00482E0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19841062981F3CE00482E0D /* SceneDelegate.swift */; };
+		F19841092981F3CE00482E0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19841082981F3CE00482E0D /* ViewController.swift */; };
+		F198410C2981F3CE00482E0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F198410A2981F3CE00482E0D /* Main.storyboard */; };
+		F198410E2981F3D000482E0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F198410D2981F3D000482E0D /* Assets.xcassets */; };
+		F19841112981F3D000482E0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F198410F2981F3D000482E0D /* LaunchScreen.storyboard */; };
+		F198411C2981F3D000482E0D /* spongebobProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198411B2981F3D000482E0D /* spongebobProfileTests.swift */; };
+		F19841262981F3D000482E0D /* spongebobProfileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19841252981F3D000482E0D /* spongebobProfileUITests.swift */; };
+		F19841282981F3D000482E0D /* spongebobProfileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19841272981F3D000482E0D /* spongebobProfileUITestsLaunchTests.swift */; };
+		F19841352981F50500482E0D /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19841342981F50500482E0D /* detailViewController.swift */; };
+		F19841372981F58800482E0D /* spongebob.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19841362981F58800482E0D /* spongebob.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F19841182981F3D000482E0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F19840F92981F3CE00482E0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F19841002981F3CE00482E0D;
+			remoteInfo = spongebobProfile;
+		};
+		F19841222981F3D000482E0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F19840F92981F3CE00482E0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F19841002981F3CE00482E0D;
+			remoteInfo = spongebobProfile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F19841012981F3CE00482E0D /* spongebobProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spongebobProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19841042981F3CE00482E0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F19841062981F3CE00482E0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F19841082981F3CE00482E0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F198410B2981F3CE00482E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F198410D2981F3D000482E0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F19841102981F3D000482E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F19841122981F3D000482E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19841172981F3D000482E0D /* spongebobProfileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spongebobProfileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F198411B2981F3D000482E0D /* spongebobProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spongebobProfileTests.swift; sourceTree = "<group>"; };
+		F19841212981F3D000482E0D /* spongebobProfileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spongebobProfileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19841252981F3D000482E0D /* spongebobProfileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spongebobProfileUITests.swift; sourceTree = "<group>"; };
+		F19841272981F3D000482E0D /* spongebobProfileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spongebobProfileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F19841342981F50500482E0D /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		F19841362981F58800482E0D /* spongebob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spongebob.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F19840FE2981F3CE00482E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19841142981F3D000482E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F198411E2981F3D000482E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F19840F82981F3CE00482E0D = {
+			isa = PBXGroup;
+			children = (
+				F19841032981F3CE00482E0D /* spongebobProfile */,
+				F198411A2981F3D000482E0D /* spongebobProfileTests */,
+				F19841242981F3D000482E0D /* spongebobProfileUITests */,
+				F19841022981F3CE00482E0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F19841022981F3CE00482E0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F19841012981F3CE00482E0D /* spongebobProfile.app */,
+				F19841172981F3D000482E0D /* spongebobProfileTests.xctest */,
+				F19841212981F3D000482E0D /* spongebobProfileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F19841032981F3CE00482E0D /* spongebobProfile */ = {
+			isa = PBXGroup;
+			children = (
+				F19841042981F3CE00482E0D /* AppDelegate.swift */,
+				F19841062981F3CE00482E0D /* SceneDelegate.swift */,
+				F19841082981F3CE00482E0D /* ViewController.swift */,
+				F198410A2981F3CE00482E0D /* Main.storyboard */,
+				F198410D2981F3D000482E0D /* Assets.xcassets */,
+				F198410F2981F3D000482E0D /* LaunchScreen.storyboard */,
+				F19841122981F3D000482E0D /* Info.plist */,
+				F19841342981F50500482E0D /* detailViewController.swift */,
+				F19841362981F58800482E0D /* spongebob.swift */,
+			);
+			path = spongebobProfile;
+			sourceTree = "<group>";
+		};
+		F198411A2981F3D000482E0D /* spongebobProfileTests */ = {
+			isa = PBXGroup;
+			children = (
+				F198411B2981F3D000482E0D /* spongebobProfileTests.swift */,
+			);
+			path = spongebobProfileTests;
+			sourceTree = "<group>";
+		};
+		F19841242981F3D000482E0D /* spongebobProfileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F19841252981F3D000482E0D /* spongebobProfileUITests.swift */,
+				F19841272981F3D000482E0D /* spongebobProfileUITestsLaunchTests.swift */,
+			);
+			path = spongebobProfileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F19841002981F3CE00482E0D /* spongebobProfile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F198412B2981F3D000482E0D /* Build configuration list for PBXNativeTarget "spongebobProfile" */;
+			buildPhases = (
+				F19840FD2981F3CE00482E0D /* Sources */,
+				F19840FE2981F3CE00482E0D /* Frameworks */,
+				F19840FF2981F3CE00482E0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spongebobProfile;
+			productName = spongebobProfile;
+			productReference = F19841012981F3CE00482E0D /* spongebobProfile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F19841162981F3D000482E0D /* spongebobProfileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F198412E2981F3D000482E0D /* Build configuration list for PBXNativeTarget "spongebobProfileTests" */;
+			buildPhases = (
+				F19841132981F3D000482E0D /* Sources */,
+				F19841142981F3D000482E0D /* Frameworks */,
+				F19841152981F3D000482E0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F19841192981F3D000482E0D /* PBXTargetDependency */,
+			);
+			name = spongebobProfileTests;
+			productName = spongebobProfileTests;
+			productReference = F19841172981F3D000482E0D /* spongebobProfileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F19841202981F3D000482E0D /* spongebobProfileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19841312981F3D000482E0D /* Build configuration list for PBXNativeTarget "spongebobProfileUITests" */;
+			buildPhases = (
+				F198411D2981F3D000482E0D /* Sources */,
+				F198411E2981F3D000482E0D /* Frameworks */,
+				F198411F2981F3D000482E0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F19841232981F3D000482E0D /* PBXTargetDependency */,
+			);
+			name = spongebobProfileUITests;
+			productName = spongebobProfileUITests;
+			productReference = F19841212981F3D000482E0D /* spongebobProfileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F19840F92981F3CE00482E0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F19841002981F3CE00482E0D = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					F19841162981F3D000482E0D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F19841002981F3CE00482E0D;
+					};
+					F19841202981F3D000482E0D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F19841002981F3CE00482E0D;
+					};
+				};
+			};
+			buildConfigurationList = F19840FC2981F3CE00482E0D /* Build configuration list for PBXProject "spongebobProfile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F19840F82981F3CE00482E0D;
+			productRefGroup = F19841022981F3CE00482E0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F19841002981F3CE00482E0D /* spongebobProfile */,
+				F19841162981F3D000482E0D /* spongebobProfileTests */,
+				F19841202981F3D000482E0D /* spongebobProfileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F19840FF2981F3CE00482E0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19841112981F3D000482E0D /* LaunchScreen.storyboard in Resources */,
+				F198410E2981F3D000482E0D /* Assets.xcassets in Resources */,
+				F198410C2981F3CE00482E0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19841152981F3D000482E0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F198411F2981F3D000482E0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F19840FD2981F3CE00482E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19841372981F58800482E0D /* spongebob.swift in Sources */,
+				F19841092981F3CE00482E0D /* ViewController.swift in Sources */,
+				F19841052981F3CE00482E0D /* AppDelegate.swift in Sources */,
+				F19841072981F3CE00482E0D /* SceneDelegate.swift in Sources */,
+				F19841352981F50500482E0D /* detailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19841132981F3D000482E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F198411C2981F3D000482E0D /* spongebobProfileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F198411D2981F3D000482E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19841282981F3D000482E0D /* spongebobProfileUITestsLaunchTests.swift in Sources */,
+				F19841262981F3D000482E0D /* spongebobProfileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F19841192981F3D000482E0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F19841002981F3CE00482E0D /* spongebobProfile */;
+			targetProxy = F19841182981F3D000482E0D /* PBXContainerItemProxy */;
+		};
+		F19841232981F3D000482E0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F19841002981F3CE00482E0D /* spongebobProfile */;
+			targetProxy = F19841222981F3D000482E0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F198410A2981F3CE00482E0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F198410B2981F3CE00482E0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F198410F2981F3D000482E0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19841102981F3D000482E0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F19841292981F3D000482E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F198412A2981F3D000482E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F198412C2981F3D000482E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F89ZK73HYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = spongebobProfile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilaaichele.spongebobProfile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F198412D2981F3D000482E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F89ZK73HYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = spongebobProfile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilaaichele.spongebobProfile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F198412F2981F3D000482E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F89ZK73HYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilaaichele.spongebobProfileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spongebobProfile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/spongebobProfile";
+			};
+			name = Debug;
+		};
+		F19841302981F3D000482E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F89ZK73HYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilaaichele.spongebobProfileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spongebobProfile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/spongebobProfile";
+			};
+			name = Release;
+		};
+		F19841322981F3D000482E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F89ZK73HYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilaaichele.spongebobProfileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = spongebobProfile;
+			};
+			name = Debug;
+		};
+		F19841332981F3D000482E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F89ZK73HYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilaaichele.spongebobProfileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = spongebobProfile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F19840FC2981F3CE00482E0D /* Build configuration list for PBXProject "spongebobProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19841292981F3D000482E0D /* Debug */,
+				F198412A2981F3D000482E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F198412B2981F3D000482E0D /* Build configuration list for PBXNativeTarget "spongebobProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F198412C2981F3D000482E0D /* Debug */,
+				F198412D2981F3D000482E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F198412E2981F3D000482E0D /* Build configuration list for PBXNativeTarget "spongebobProfileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F198412F2981F3D000482E0D /* Debug */,
+				F19841302981F3D000482E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19841312981F3D000482E0D /* Build configuration list for PBXNativeTarget "spongebobProfileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19841322981F3D000482E0D /* Debug */,
+				F19841332981F3D000482E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F19840F92981F3CE00482E0D /* Project object */;
+}
