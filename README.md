@@ -12,11 +12,11 @@ Time spent: 10 hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] Users are able to see a customized app icon and launch screen
+- [X] Users are able to see a customized app icon and launch screen
 - [ ] Your app should work for any screen size and orientation using AutoLayout constraints
   - [ ] Mark here if you will demostrate auto layout implemention as horizontal rotation or different phone size or both, then erase this text
-- [ ] Users are able to see at least 3 context items
-- [ ] Users are able to tap into each context item and see detail view contains information about each item (title, description, picture if applicable, etc.)
+- [X] Users are able to see at least 3 context items
+- [X] Users are able to tap into each context item and see detail view contains information about each item (title, description, picture if applicable, etc.)
  
 The following **optional** features are implemented:
 
@@ -31,14 +31,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/103790405/215626072-eb9dbe2c-62ad-4a4a-a4cc-8ecb0404e7da.gif)
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with https://ezgif.com
 
 ## Notes
 
